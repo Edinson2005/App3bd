@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Datos">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar Datos"
+        android:layout_gravity="center"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cod"
+        android:layout_marginRight="110dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/cod"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:layout_marginRight="90dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:text="Apellido"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/apellido"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="105dp"
+        android:text="Edad"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:text="Correo"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:text="Telefono"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/telefono"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"/>
+
+</LinearLayout>

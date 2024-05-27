@@ -4,6 +4,8 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.edinson.basededatos.Pais;
+
 public class ManangerBd {
     BdHelper bdHelper; // Declaro la clase donde esta la conexion de la base de datos
     SQLiteDatabase bd; //declaro variable de tipo SQlite database para los metodos de la bd
@@ -21,11 +23,11 @@ public class ManangerBd {
         }
 
     //METODO INSERTAR DATOS
-        public long insertDatos(){
+        public long insertDatos(String cod, String nombre){
             openBdWr();// paso 1 abro al bd en mode escritura
             ContentValues values = new ContentValues();
-            values.put("cod","1");// paso 2 lleno el contenedor
-            values.put("nombre","Colombia");
+            values.put("cod",cod);// paso 2 lleno el contenedor
+            values.put("nombre", nombre);
             long resul = bd.insert("Pais", null,values);
 
             //en la variable resul se almacena el resultado de la iserción

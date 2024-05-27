@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Pais">
+    <Button
+        android:id="@+id/datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:layout_gravity="top"
+        android:layout_marginBottom="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar Paises"
+        android:layout_gravity="center"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="110dp"
+        android:text="Cod"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/cod"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="90dp"
+        android:text="Nombre"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"/>
+    <Button
+        android:id="@+id/guarda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"/>
+
+
+</LinearLayout>
